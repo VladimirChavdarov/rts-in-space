@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="template\template.cpp">
+      <Filter>Template Code</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedShip.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="template\common.h">
+      <Filter>Template Code</Filter>
+    </ClInclude>
+    <ClInclude Include="template\precomp.h">
+      <Filter>Template Code</Filter>
+    </ClInclude>
+    <ClInclude Include="cl\tools.cl">
+      <Filter>Template Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedShip.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cl\kernels.cl">
+      <Filter>Template Code</Filter>
+    </None>
+    <None Include="template\LICENSE">
+      <Filter>Template Code</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Template Code</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Template Code">
+      <UniqueIdentifier>{658715d9-505e-4a12-b9bc-57ff5a8f14b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{edf3d8db-9573-4afe-b762-b0ec567995af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
